@@ -1,5 +1,5 @@
 <!--
-  README.md -- gohighlevel-sub-account-buildout
+  README.md -- gohighlevel-buildout-for-free-webinar
   Author:  Jibril Sulaiman
   Date:    2026-11-16
   Lives:   Repo root (GitHub).
@@ -12,9 +12,10 @@
            and the wiring, taken from a production account and its defects.
 -->
 
-# GoHighLevel sub-account buildout: free classes to paying members
+# GoHighLevel buildout for free webinars: from sign-up to paying member
 
-A full GoHighLevel (GHL) sub-account build for a business that fills free live classes,
+A full GoHighLevel (GHL) sub-account build for a business that fills free live webinars
+(called "free classes" in this guide),
 sells a course or program after each class, and onboards buyers into a paid community. It
 covers the data model, the class funnel workflows, payments, a Stripe transactions object,
 membership, onboarding, sales calls, phone routing and opt-outs, in the order they depend on
@@ -915,8 +916,8 @@ About 30 minutes, before you call the account done.
 ## Running the tests
 
 ```powershell
-git clone https://github.com/carljibrilsulaimanii/gohighlevel-sub-account-buildout
-cd gohighlevel-sub-account-buildout
+git clone https://github.com/carljibrilsulaimanii/gohighlevel-buildout-for-free-webinar
+cd gohighlevel-buildout-for-free-webinar
 npm test
 ```
 
