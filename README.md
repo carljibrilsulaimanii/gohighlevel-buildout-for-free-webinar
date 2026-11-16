@@ -978,6 +978,7 @@ March and November, the 12 AM / 12 PM edge, unreadable dates, each lead source, 
 
 | Repo | Covers |
 |---|---|
+| [gohighlevel-buildout-for-conference](https://github.com/carljibrilsulaimanii/gohighlevel-buildout-for-conference) | the companion build for selling a live conference: tiered tickets, purchase router, high-ticket enrollment |
 | [gohighlevel-slicktext-sms-sync-and-campaign-scheduler](https://github.com/carljibrilsulaimanii/gohighlevel-slicktext-sms-sync-and-campaign-scheduler) | Step 13: SMS lists per class and scheduled campaigns |
 | [stripe-gohighlevel-failed-payment-recovery](https://github.com/carljibrilsulaimanii/stripe-gohighlevel-failed-payment-recovery) | Step 17: failed charges, failed invoices, card expiry |
 | [mighty-networks-webhook-router-gohighlevel](https://github.com/carljibrilsulaimanii/mighty-networks-webhook-router-gohighlevel) | Step 18: membership webhooks routed by event type |
