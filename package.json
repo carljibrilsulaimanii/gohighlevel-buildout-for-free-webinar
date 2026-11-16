@@ -1,0 +1,11 @@
+{
+  "name": "gohighlevel-sub-account-buildout",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Click-by-click build of a GoHighLevel sub-account for a free-class funnel business: custom values per class, registration and attendance workflows, payments, a Stripe transactions object, membership, onboarding, sales calls and phone routing.",
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "engines": { "node": ">=20" }
+}

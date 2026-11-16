@@ -1,0 +1,47 @@
+Object,Folder,Field name,Field type,Set by
+Contact,Free Class,FC Status Tag,Single line,"Registration, Attended and Replay workflows (the latest class status tag)"
+Contact,Free Class,FC Reg Date,Date picker,Free Class Registration (Current date)
+Contact,Free Class,FC Reg Time,Single line,Free Class Registration ({{right_now.time_ampm}})
+Contact,Free Class,FC Attend Date,Date picker,Free Class Attended (Current date)
+Contact,Free Class,FC Attend Time,Single line,Free Class Attended
+Contact,Free Class,FC Replay Date,Date picker,Free Class Replay Tag (Current date)
+Contact,Free Class,FC Replay Time,Single line,Free Class Replay Tag
+Contact,Free Class,Recent Form Used,Single line,Free Class Replay Tag ({{contact.source}})
+Contact,Attribution - First,Session Source - First,Single line,First - Attribution
+Contact,Attribution - First,URL - First,Single line,First - Attribution
+Contact,Attribution - First,Referrer - First,Single line,First - Attribution
+Contact,Attribution - First,Medium - First,Single line,First - Attribution
+Contact,Attribution - First,Campaign - First,Single line,First - Attribution
+Contact,Attribution - First,Campaign Id - First,Single line,First - Attribution
+Contact,Attribution - First,UTM Source - First,Single line,First - Attribution
+Contact,Attribution - First,UTM Medium - First,Single line,First - Attribution
+Contact,Attribution - First,UTM Campaign - First,Single line,First - Attribution
+Contact,Attribution - First,UTM Content - First,Single line,First - Attribution
+Contact,Attribution - First,UTM Term - First,Single line,First - Attribution
+Contact,Attribution - First,UTM Keyword - First,Single line,First - Attribution
+Contact,Attribution - First,UTM Match Type - First,Single line,First - Attribution
+Contact,Attribution - First,FB ClickId - First,Single line,First - Attribution
+Contact,Attribution - First,Google ClickId - First,Single line,First - Attribution
+Contact,Attribution - First,Google Client Id - First,Single line,First - Attribution
+Contact,Attribution - First,Ad Group ID - First,Single line,First - Attribution
+Contact,Attribution - First,Ad ID - First,Single line,First - Attribution
+Contact,Attribution - Last,(the same 18 fields ending in - Last),Single line,Last - Attribution
+Contact,Stripe,Stripe Customer ID,Single line,All Stripe Transactions Object; All Stripe Transactions (Successful)
+Contact,Stripe,Stripe Subscription Amount,Single line,All Stripe Transactions (Successful)
+Contact,Stripe,Stripe Current Period Start (UTC),Date picker,Stripe Find Customer by ID
+Contact,Stripe,Stripe Current Period End (UTC),Date picker,Stripe Find Customer by ID
+Contact,Stripe,Stripe Card Exp Full Date,Date picker,All Stripe Transactions (Successful)
+Contact,Stripe,Stripe Card Exp Full Date Raw,Single line,All Stripe Transactions (Successful)
+Contact,Stripe,Stripe Last Transaction Date,Date picker,All Stripe Transactions (Successful) (Current date)
+Contact,Stripe,Stripe Last Transaction Time,Single line,All Stripe Transactions (Successful)
+Contact,Stripe,Stripe Failure Code,Single line,failed-payment workflows (see the failed payment repo)
+Contact,Stripe,Stripe Invoice Payment Link,Single line,failed-payment workflows
+Contact,Membership,MN Member ID,Single line,membership webhook router
+Contact,Membership,MN Last Visited Network,Date picker,Member Last Visited Update
+Contact,Membership,Temperature,Single line,Member Temperature Update
+Contact,Membership,Plan Bundle Plan Type,Single line,membership webhook router
+Contact,Sales Calls,Booking Engagement Status,Dropdown (single): engaged / silent / at-risk,1. Appointment Confirmation Follow-Up
+Contact,Sales Calls,Last Booking Confirmation Sent,Date picker,1. Appointment Confirmation Follow-Up (Current date)
+Contact,Sales Calls,Last Booking Confirmation Sent - Time,Single line,1. Appointment Confirmation Follow-Up
+Contact,Sales Calls,Disposition Result,Single line,Disposition Tags
+Contact,Sales Calls,Last Called By,Single line,Update Last Called

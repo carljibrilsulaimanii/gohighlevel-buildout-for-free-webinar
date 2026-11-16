@@ -1,0 +1,7 @@
+{
+  "locationId": "REPLACE_WITH_YOUR_LOCATION_ID",
+  "query": "{{inboundWebhookRequest.data.object.id}}",
+  "page": 1,
+  "pageLimit": 1,
+  "searchAfter": []
+}

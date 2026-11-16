@@ -1,0 +1,18 @@
+Field name,Field type,Value in the "Create custom object record" step
+Charge ID,Single line (primary display property),{{inboundWebhookRequest.data.object.id}}
+Payment Intent ID,Single line,{{inboundWebhookRequest.data.object.payment_intent}}
+Amount,Number,{{inboundWebhookRequest.data.object.amount}}
+Amount Refunded,Number,{{inboundWebhookRequest.data.object.amount_refunded}}
+Currency,Single line,{{inboundWebhookRequest.data.object.currency}}
+Status,Dropdown (single): option keys succeeded / failed / refunded / paid,{{inboundWebhookRequest.data.object.status}}
+Decline Reason,Single line,{{inboundWebhookRequest.data.object.failure_code}}
+Transaction Description,Single line,{{inboundWebhookRequest.data.object.description}}
+Invoice Number,Single line,{{inboundWebhookRequest.data.object.invoice}}
+Card Last 4,Single line,{{inboundWebhookRequest.data.object.payment_method_details.card.last4}}
+Card Brand,Single line,(left empty in the original build; map {{inboundWebhookRequest.data.object.payment_method_details.card.brand}} if you want it)
+Customer Email,Single line,{{inboundWebhookRequest.data.object.receipt_email}}
+Stripe Customer ID,Single line,{{inboundWebhookRequest.data.object.customer}}
+GHL Contact ID,Single line,{{inboundWebhookRequest.data.object.metadata.contactId}}
+Stripe Fee,Number,0 (the charge event has no fee; it lives on the balance transaction)
+Transaction Source,Single line,{{custom_code.<your code step>.transaction_source}}
+Stripe Receipt URL,Single line,https://dashboard.stripe.com/payments/{{inboundWebhookRequest.data.object.id}}

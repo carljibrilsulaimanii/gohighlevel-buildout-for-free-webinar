@@ -1,0 +1,33 @@
+Folder,Name,Merge key GHL creates,Example value,Used by
+Class A,1. Watch Now Link,custom_values.class_watch_now_link,https://www.youtube.com/watch?v=REPLACE,watch page; reminder emails
+Class A,2. Next Day Restream Link,custom_values.class_next_day_restream_link,https://www.youtube.com/watch?v=REPLACE,restream SMS campaign
+Class A,3. Replay Video Embed Code,custom_values.replay_video_embed_code,<iframe src="https://example.com/embed/REPLACE"></iframe>,replay page
+Class A,4. Class Date,custom_values.class_date,"Mar 4th, 2027",pages; emails; SMS
+Class A,5. Day of Class,custom_values.day_of_class,Thursday,pages; emails
+Class A,6. Class Time,custom_values.class_time,7pm ET,pages; emails
+Class A,7. Class Event Start Date/Time,custom_values.class_event_start_datetime,03-04-2027 07:00 PM,Event Start Date action; class-date-and-lead-source.js
+Class A,8. SMS Campaign #1 Date Time,custom_values.sms_campaign_1_date_time,2027-03-04 19:00:00,SMS campaign scheduler
+Class A,9. Tag - Attendees,custom_values.tag__attendees,Topic A Free Class Attendees [Mar 4th 2027],Free Class Attended
+Class A,9a. Tag - Did Not Attend,custom_values.tag__did_not_attend,Topic A Free Class Did Not Attend [Mar 4th 2027],post-class sweep
+Class A,9b. Tag - Registration,custom_values.tag__registration,Topic A Free Class Registration [Mar 4th 2027],Free Class Registration
+Class A,9c. Tag - Watched Replay,custom_values.tag__watched_replay,Topic A Free Class Watched Replay [Mar 4th 2027],Free Class Replay Tag
+Class A,9d. Tag - Upsell Purchases,custom_values.tag__upsell_purchases,Topic A Free Class Upsell Purchases [Mar 4th 2027],upsell purchase workflow
+Class A,SMS List Code - Registration,custom_values.sms_list_code__registration,100001,SMS list sync (written by the list-creation workflow)
+Class A,SMS List Code - Attendees,custom_values.sms_list_code__attendees,100002,SMS list sync
+Class A,SMS List Code - Watched Replay,custom_values.sms_list_code__watched_replay,100003,SMS list sync
+Class A,SMS List Code - Did Not Attend,custom_values.sms_list_code__did_not_attend,100004,SMS list sync
+Class A,9f. Update All SMS Lists (workflow link),custom_values.update_all_sms_lists,https://app.gohighlevel.com/v2/location/REPLACE/automation/workflow/REPLACE,a shortcut to the run-by-hand workflow
+Class A,9g. Update All SMS Campaigns (workflow link),custom_values.update_all_sms_campaigns,https://app.gohighlevel.com/v2/location/REPLACE/automation/workflow/REPLACE,a shortcut to the run-by-hand workflow
+Class A,Class Title,custom_values.class_title,How to Start Investing as a Beginner,pages; emails; CRM record
+Class A,Class Offer,custom_values.class_offer,Your Course,offer page; emails
+Class A,Class Selector,custom_values.class_selector,TOPIC A,pages that show one of several blocks
+Class A,Current Register URL,custom_values.current_register_url,https://example.com/class-register,redirects; emails
+Class A,Current Attend URL,custom_values.current_attend_url,https://example.com/watch-now,reminder emails and SMS
+Class A,Current Upsell URL,custom_values.current_upsell_url,https://example.com/starter-kit,confirmation page button
+Class A,Current Confirmation - Add to Calendar URL,custom_values.current_confirmation_add_to_calendar_url,https://example.com/confirmation#addtocalendar,confirmation email and SMS
+Class A,Current Offer Link,custom_values.current_offer_link,https://example.com/offer,offer emails
+Class A,Current Class Preview Link,custom_values.current_class_preview_link,https://example.com/class-preview,pre-class emails
+Class A,Class End-of-Life Redirect,custom_values.class_end_of_life_redirect,https://example.com/next-class,old pages after the class
+Class A,Add to Calendar Event ID,custom_values.add_to_calendar_event_id,REPLACE,add-to-calendar button
+Class A,Add to Calendar Description Text,custom_values.add_to_calendar_description_text,What you'll learn in this class,add-to-calendar button
+Shared,Dataset ID,custom_values.dataset_id,123456789012345,Meta Conversion API actions (pixel / dataset id)

@@ -1,0 +1,34 @@
+{
+  "properties": {
+    "class_registration_name": "{{contact.first_name}} {{contact.last_name}} - {{custom_values.tag__registration}}",
+    "email": "{{contact.email}}",
+    "phone_number": "{{contact.phone}}",
+    "fc_status_tag": "{{custom_values.tag__registration}}",
+    "registration_reference": "{{contact.email}}-REPLACE_WITH_CLASS_SLOT_ID-{{custom_code.1.output.isoDate}}",
+
+    "class_name": "{{custom_values.class_title}}",
+    "class_topic": "Topic A",
+    "free_class_type": "Topic A free class",
+    "class_date": "{{custom_code.1.output.isoDate}}",
+    "free_class_date": "{{custom_values.class_date}}",
+
+    "registration_status": "registered",
+    "class_status": "Registered",
+
+    "attribution_first_touch": "{{contact.attributionSource.sessionSource}}",
+    "attribution_last_touch": "{{contact.lastAttributionSource.sessionSource}}",
+    "lead_source_platform": "{{custom_code.1.output.leadSourcePlatform}}",
+    "source_utm": "{{contact.attributionSource.url}}",
+
+    "utm_source__f": "{{contact.attributionSource.utmSource}}",
+    "utm_medium__f": "{{contact.attributionSource.utmMedium}}",
+    "utm_campaign__f": "{{contact.attributionSource.campaign}}",
+
+    "utm_source__l": "{{contact.lastAttributionSource.utmSource}}",
+    "utm_medium__l": "{{contact.lastAttributionSource.utmMedium}}",
+    "utm_campaign__l": "{{contact.lastAttributionSource.campaign}}",
+
+    "registered_at": "{{custom_code.1.output.registeredAt}}",
+    "enrolled_date": "{{custom_code.1.output.enrolledDate}}"
+  }
+}
